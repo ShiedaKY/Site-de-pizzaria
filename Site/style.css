@@ -1,0 +1,94 @@
+/* Estilo para o cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+  padding: 20px;
+}
+
+.cardapio {
+  margin: 20px 0;
+}
+
+.cardapio h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.cardapio ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cardapio li {
+  margin: 0 0 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cardapio li h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.cardapio li p {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.cardapio li span {
+  font-size: 18px;
+  color: #f00;
+}
+
+/* Estilo para o rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+}
